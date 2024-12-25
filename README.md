@@ -1,18 +1,16 @@
 # Breacher
 A script to find admin login pages and EAR vulnerabilites.
 
-#### Features
-- [x] Multi-threading on demand
-- [x] Big path list (482 paths)
-- [x] Supports php, asp and html extensions
-- [x] Checks for potential EAR vulnerabilites
-- [x] Checks for robots.txt
-- [x] Support for custom patns
+#### İşlevleri
+- [x] İşlevsel Programımız
+- [x] Büyük Wordlistimiz (482 adet)
+- [x] Php, asp ve html Destekler
+- [x] Potansiyel EAR açıklarını tarar
+- [x] Robots.txt dosyalarını tarar
 
-### Usages
-- Check all paths with php extension
-```
-python breacher -u example.com --type php
+### Kullanım
+Php Dilinde Siteler İçin
+python adminfinder.py -u example.com --type php
 ```
 - Check all paths with php extension with threads
 ```
