@@ -20,7 +20,7 @@ print ('''\033[1;34m______   ______ _______ _______ _______ _     _ _______  ___
 
                           \033[37mMade with \033[91m<3\033[37m By Taxo[1;m''')
 
-print ('''\n  Yaptığınız şeylerden ben sorumlu değilim ve eğer bir hata alırsanız bana danışınız hedefin yanıt vermeme ihtimali yüksek.\n''')
+print ('''\n  hedefin yanıt vermeme ihtimali yüksektir bunu bilerek kullanınız.\n''')
 print ('\033[1;31m--------------------------------------------------------------------------\033[1;m\n')
 
 try:
@@ -39,7 +39,7 @@ try:
     if '<html>' in r.text: #if there's an html error page then its not robots.txt
         print ('  \033[1;31m[-]\033[1;m Robots.txt bulunamadı\n')
     else: #else we got robots.txt
-        print ('  \033[1;32m[+]\033[0m Robots.txt bulundu. İlginç bir giriş olup olmadığını kontrol edin\n')
+        print ('  \033[1;32m[+]\033[0m Robots.txt bulundu\n')
         print (r.text)
 except: #if this request fails, we are getting robots.txt
     print ('  \033[1;31m[-]\033[1;m Robots.txt bulunamadı\n')
